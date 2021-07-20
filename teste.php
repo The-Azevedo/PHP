@@ -7,7 +7,7 @@
 </head>
 <body>
 <div>
-    <form action="get" action="01valor.php">
+    <form method="get" action="01valor.php">
         valor: <input type="number" name="v"/>
         <input type="submit" value="Calcular Raiz"/>
     </form>

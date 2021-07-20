@@ -9,8 +9,10 @@
     <div>
         <?php
         $valor = $_GET["v"];
-        echo "O valor enviado foi $valor";
+        $r = sqrt($valor);
+        echo "A raiz de $valor é " . number_format($r,2);
         ?>
+        <br><a href="teste.php">Voltar</a>
     </div>
 </body>
 </html>
